@@ -1,0 +1,152 @@
+
+*{
+  margin:0px;
+  padding:0px;
+}
+html { 
+  background: url('/images/background.jpeg') no-repeat center fixed; 
+  background: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  background: url('/image/background.jpeg') no-repeat center fixed;
+  color: #fff;
+  font-family: 'poppins', default;
+}
+.brand-title {
+ font-family: 'Poppins', sans-serif;
+ color: #f2f2f2;
+}
+
+.navbar{
+  background: #000;
+}
+
+.music-intro{
+  padding-top: 1px;
+}
+
+.music-intro h1{
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  font-size: 200%;
+}
+
+.music-intro a{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 10px;
+  border: 1.2px solid #fff;
+}
+
+.music-intro h3{
+  color: #fff;
+  
+  font-size: 120%;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  transition: 0.3s;
+}
+
+.music-intro a:hover{
+  background: #fff;
+  color: #000;
+}
+
+.music-intro{
+  padding-top: 1px;
+  padding-bottom: 5px;
+}
+
+.about-intro h1{
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  font-size: 200%;
+}
+
+.about-intro a{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 10px;
+  border: 1.2px solid #fff;
+}
+
+.about-intro h3{
+  color: #fff;
+  
+  font-size: 120%;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  transition: 0.3s;
+}
+
+.about-intro a:hover{
+  background: #fff;
+  color: #000;
+}
+
+.about-intro img{
+  margin: 5px;
+  padding-bottom: 10px;
+  padding-right: 11px;
+  transition: transform 1s;
+}
+
+footer{
+  background: rgb(39, 39, 39);
+  text-align: center;
+}
+
+footer li, a{
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 7px;
+  padding-right: 20px;
+  padding-left: 30px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #fff;
+  padding-top: 5px;
+}
+
+footer p{
+  padding: 5px;
+}
+
+
+
+.break{
+  border-bottom: 2px solid #fff;
+  margin: 40px;
+}
+
+iframe{
+  transition: transform 2s;
+}
+
+.about-intro img:hover{
+  transform: scale(1.07);
+}
+
+footer a:hover{
+  background: rgb(189, 187, 187);
+  color: #000;
+  text-decoration: none;
+}
+
+iframe:hover{
+  transform: scale(1.07);
+}

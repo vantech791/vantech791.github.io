@@ -1,0 +1,70 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.BU{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 40%;
+	transition: transform 2s;
+}
+h4, h3, h5, h2{
+	text-align: center;
+ }	
+ 
+h3{
+	padding-top: 70px;
+}
+
+h4{
+	padding: 20px;
+}
+
+ol{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+.allMusicArt{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    transition: transform 1s;
+	padding-bottom: 20px;
+	padding-left: 65px;
+}
+
+.all{
+	padding: 12px;
+}
+
+.albumHeader{
+	padding-bottom: 20px;
+}
+
+.break1{
+    border-bottom: 2px solid #fff;
+    margin-left: 385px;
+	margin-right: 385px;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+.BU:hover{
+	transform: scale(1.07)
+}
+
+.allMusicArt:hover{
+    transform: scale(1.07);
+}
+
+.albumHeader:hover{
+	border-bottom:1px solid #fff;
+	margin-left: 200px;
+	margin-right: 200px;
+}
